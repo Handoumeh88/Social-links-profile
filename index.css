@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+      font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+
+}
+
+.parent{
+    text-align: center;
+    width: 350px;
+    height: 510px;
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.parent img{
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+
+
+}
+p{
+    font-size: 0.875em;
+
+}
+.state{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.name{
+    font-weight: 700;
+    font-size: 1.3em;
+
+}
+
+.parent a{
+    display: block;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
